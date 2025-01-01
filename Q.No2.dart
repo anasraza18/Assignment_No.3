@@ -9,10 +9,10 @@ void main(){
   int i = 1;
 
   do {
-    print(fac);
-    i++;
+    
     fac = i * fac;
+    i++;
     
   } while (i <= input);
-
+print(fac);
 }

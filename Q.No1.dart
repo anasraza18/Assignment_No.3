@@ -11,7 +11,9 @@ void main(){
   for ( i = 0; i < input.length; i++) {
     
     if(input[i] % 2 == 0){
-      print('Even Number is : ${input[i]}');
+    print('Even Number is : ${input[i]}');  
     }
+    
   }
+  
 }

@@ -12,6 +12,7 @@ void main(){
     
     sum = sum + input[i];
     i++;
-    print(sum);
+    
   }
+  print(sum);
 }
