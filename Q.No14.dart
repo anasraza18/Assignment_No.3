@@ -1,6 +1,6 @@
 import 'dart:io';
-void main(){
 
+void main() {
   String password = 'Anas123';
   String email = 'manasraza18@gmail.com';
 
@@ -11,18 +11,15 @@ void main(){
     stdout.write("Enter the Email : ");
     String? input1 = stdin.readLineSync();
 
-    if(input != password){
-       print('Incorrect Password!');
+    if (input != password) {
+      print('Incorrect Password!');
     }
-    if(input1 != email){
-       print('Incorrect email!');
+    if (input1 != email) {
+      print('Incorrect email!');
     }
-    if(input == password && input1 == email){
-       print('Successfully Login!');
-       break;
+    if (input == password && input1 == email) {
+      print('Successfully Login!');
+      break;
     }
-
-    
   } while (true);
-
 }
