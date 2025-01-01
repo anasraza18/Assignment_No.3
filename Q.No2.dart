@@ -1,6 +1,8 @@
 import 'dart:io';
 
 void main() {
+//Implement a code that finds the factorial of a number using a while loop or for loop.
+
   stdout.write("Enter the Number to find the factorial : ");
   String? innput = stdin.readLineSync();
   int input = int.parse(innput!);

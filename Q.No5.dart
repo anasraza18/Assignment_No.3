@@ -1,6 +1,8 @@
 import 'dart:io';
 
 void main() {
+//Write a program that prints the multiplication table of a given number using a for loop.
+
   stdout.write("Enter the number : ");
   String? innput = stdin.readLineSync();
   int input = int.parse(innput!);

@@ -1,4 +1,6 @@
 void main() {
+//Write a program that counts the number of vowels in a given string using a for loop and if-else condition.
+
   String word = 'Hello World';
   String Vowel = 'aeiou';
   int count = 0;
