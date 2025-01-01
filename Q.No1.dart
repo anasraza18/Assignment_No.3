@@ -8,7 +8,7 @@ void main(){
   List<int> input = input1!.split(' ').map(int.parse).toList();
 
   for (var i = 0; i < input.length; i++) {
-    //print(input[i]);
+    
     if(input[i] % 2 == 0){
       print('Even Number is : ${input[i]}');
     }
