@@ -33,10 +33,27 @@ void main() {
     double per = sum / total;
 
     e['perc'] = per.toStringAsFixed(2);
+
+    String grade = '';
+    if(per > 80){
+      grade = 'A++';
+    }else if(per > 70){
+      grade = 'A';
+    }else if(per > 60){
+      grade = 'B';
+    }else if(per > 50){
+      grade = 'C';
+    }else if(per > 40){
+      grade = 'D';
+    }else{
+      grade = 'Fail';
+    }
+
+    e['grade'] = grade;
   }
-  ;
 
   students.forEach((e) {
-    print("${e['name']} : ${e['perc']}%");
+    print("Name : ${e['name']}, Percentage : ${e['perc']}%, Grade : ${e['grade']}");
+    print('');
   });
 }
